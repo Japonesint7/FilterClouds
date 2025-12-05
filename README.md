@@ -55,6 +55,3 @@ go get github.com/cheggaaa/pb/v3
 go get github.com/fatih/color
 go mod tidy
 go run cloudmain.go
-
-go mod tidy
-go build -o cloudmain.go
