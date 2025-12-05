@@ -50,7 +50,11 @@ O foco é facilitar auditorias e tratamentos de dados **em ambientes autorizados
 
 ```bash
 git clone https://github.com/Japonesint7/FilterClouds.git
-cd seu-repositorio
+cd FilterClouds
+go get github.com/cheggaaa/pb/v3
+go get github.com/fatih/color
+go mod tidy
+go run cloudmain.go
 
 go mod tidy
 go build -o cloudmain.go
