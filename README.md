@@ -53,4 +53,4 @@ git clone https://github.com/seu-usuario/seu-repositorio.git
 cd seu-repositorio
 
 go mod tidy
-go build -o cloud-txt-analyzer
+go build -o cloudmain.go
